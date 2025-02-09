@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ecom-music/static/css/main.96dab1dc.css",
+    "main.js": "/ecom-music/static/js/main.01a8460e.js",
+    "static/js/453.39c3252d.chunk.js": "/ecom-music/static/js/453.39c3252d.chunk.js",
+    "static/media/regform.jpg": "/ecom-music/static/media/regform.17ffe52c4b970e40b8b4.jpg",
+    "static/media/bk.mp4": "/ecom-music/static/media/bk.c94c65252d559cdb3064.mp4",
+    "static/media/admin-home.gif": "/ecom-music/static/media/admin-home.1df028776e163f2175b9.gif",
+    "static/media/musicback.jpg": "/ecom-music/static/media/musicback.777664cd2ae40422a52b.jpg",
+    "static/media/addm.jpg": "/ecom-music/static/media/addm.2b7317ec885b21636b54.jpg",
+    "static/media/membck.jpg": "/ecom-music/static/media/membck.e6740d276b3e1b49c6bf.jpg",
+    "index.html": "/ecom-music/index.html",
+    "main.96dab1dc.css.map": "/ecom-music/static/css/main.96dab1dc.css.map",
+    "main.01a8460e.js.map": "/ecom-music/static/js/main.01a8460e.js.map",
+    "453.39c3252d.chunk.js.map": "/ecom-music/static/js/453.39c3252d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96dab1dc.css",
+    "static/js/main.01a8460e.js"
+  ]
+}
