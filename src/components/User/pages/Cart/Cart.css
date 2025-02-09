@@ -1,0 +1,10 @@
+.table{
+    background-color: white;
+    text-align: center;
+}
+
+.table th{
+    border-top: black 3px solid;
+    border-bottom: black 1px solid;
+}
+

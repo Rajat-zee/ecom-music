@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/images/musicback.jpg");
+    
+    background-size: cover;
+}

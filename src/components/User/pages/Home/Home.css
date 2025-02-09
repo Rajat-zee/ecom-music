@@ -1,0 +1,368 @@
+/* body{
+  background-color: gray;
+} */
+
+/* ---------All Music---------- */
+.allmusic{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+/* ---------By Genre---------- */
+
+.headg{
+  background-color: lightseagreen;
+  border: 2px solid white;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  color: white;
+  font-size: 240%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.genreparent{
+  margin-top: 4%;
+}
+.genre{
+  width: 90%;
+  margin: auto;
+  margin-right: auto;
+}
+.genre:hover{
+  transform: scale(1.02);
+}
+.ag{
+  font-family: Oxygen, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 18rem));
+  grid-gap: 2rem;
+  justify-content: center;
+  background-color: purple;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: -0.6%;
+}
+
+
+/* ---------By Artist--------- */
+.heada{
+  background-color: purple;
+  border: 2px solid white;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  color: white;
+  font-size: 240%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  
+}
+.artistparent{
+  margin-top: 4%;
+}
+.artist{
+  width: 90%;
+  margin: auto;
+  margin-right: auto;
+}
+.artist:hover{
+  transform: scale(1.02);
+}
+.aa{
+  font-family: Oxygen, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 18rem));
+  grid-gap: 2rem;
+  justify-content: center;
+  background-color: rgb(217, 148, 217);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: -0.6%;
+}
+
+
+/* ------------USER HOME------------------- */
+.homepara{
+  background-image: url(../../../../../public//images/musicback.jpg);
+}
+.MuByLatest{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.MuByScore{
+  margin-top: 5%;
+  
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+#headl{
+  margin-left: 9%; 
+  display: inline-block;
+  
+}
+#btnl{
+  width: 10%;
+  font-size: 30px;
+  padding-bottom: 3.5%;
+  font-weight: bolder;
+  color: white;
+  height: 40px;
+  margin-left: 55%;
+  display: inline-block;
+  border-radius: 100px;
+  background-color: red;
+}
+#heads{
+  margin-left: 9%; 
+  display: inline-block;
+  
+}
+#btns{
+  width: 10%;
+  font-size: 30px;
+  padding-bottom: 3.5%;
+  font-weight: bolder;
+  color: white;
+  height: 40px;
+  margin-left: 54.5%;
+  display: inline-block;
+  background-color: red;
+  border-radius: 100px;
+}
+
+
+.head{
+  background-color: black;
+  border: 2px solid white;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  color: white;
+}
+
+.headps{
+  background-color: black;
+  border: 2px solid white;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  color: white;
+}
+
+.headpl{
+  background-color: black;
+  border: 2px solid white;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  color: white;
+}
+
+
+
+/*              CARD CSS Below              */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0%;
+    scale: 0;
+  }
+  100% {
+    opacity: 100%;
+    scale: 1;
+  }
+}
+
+
+.card{  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 3s ease-out 0s 1 slideInFromLeft;
+  
+  background: #333;
+  
+}
+
+.a {
+  
+  font-family: Oxygen, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 18rem));
+  grid-gap: 2rem;
+  justify-content: center;
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 0%;
+}
+.ap {
+  
+  font-family: Oxygen, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 24rem));
+  grid-gap: 2rem;
+  justify-content: center;
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.genre-left{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  float: left;
+  width: 50%;
+  font-size: 30px;
+  border-right: 1px solid black;
+}
+
+.artist-right{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  float: left;
+  width: 50%;
+  font-size: 30px;
+  border-left: 1px solid black;
+
+}
+
+
+
+#cart-left:hover + .price{
+  display: block;
+}
+
+#like-right:hover + .score{
+  display: block;
+}
+
+#cart-left{
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+#like-right{
+  
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  
+  
+}
+
+
+
+
+.price{
+  font-size: 30px;
+  text-align: center;
+  display: none;
+  
+}
+
+.score{
+  font-size: 30px;
+  text-align: center;
+  display: none;
+  
+}
+
+
+
+.card {
+    overflow: hidden;
+    box-shadow: 0px 2px 20px var(--clr-gray200);
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    border: 2px solid white;
+    background-color: white;
+    
+    
+    
+    
+}
+  
+.card__image{
+      height: 14rem;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .card__title {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      text-align: center;
+      padding: 0rem;
+    }
+  
+    .card__description {
+      
+      border-bottom: 2px solid black;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      text-align: center;
+      padding: 0 1rem;
+      font-size: 30px;
+      display: none; 
+    }
+    .card__title:hover + .card__description {
+      padding: 0 1rem;
+      font-size: 30px;
+      display: block;
+    }
+  
+    .card__btn {
+      padding: 1rem;
+      font-family: inherit;
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 1rem;
+      border: 2px solid var(--clr-primary);
+      background: transparent;
+      color: var(--clr-primary);
+      border-radius: var(--radius);
+      transition: background 200ms ease-in, color 200ms ease-in;
+      border-top: 1px solid white;
+      
+    }
+  
+    .card:hover {
+      transform: scale(1.02);
+    }
+  
+    /* .card:hover .card__btn {
+      background: var(--clr-primary);
+       color: white; 
+    } */
+  

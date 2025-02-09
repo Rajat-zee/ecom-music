@@ -1,0 +1,196 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    
+  
+}
+.container-a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../../public/images/addm.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-container-a1{
+    margin: 81px auto;
+    width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+/*.close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+  }*/
+  
+.form-content-left-a1 {
+    background: linear-gradient(
+      90deg,
+      rgb(45, 104, 214) 0%,
+      rgb(82, 182, 221) 100%
+    );
+    border-radius: 10px 0 0 10px;
+    position: relative;
+  }
+  
+.form-img-a1 {
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /*.form-img-2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+    color: black;
+  }*/
+  
+  .form-content-right-a1 {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background-color: lightgrey;
+    
+  }
+  
+  .form-a1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-a1 h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color:black
+  }
+  
+  .form-inputs-a1 {
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  /*.form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+   .form-input-btn {
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  .form-input-login {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: black;
+    width: 80%;
+    text-align: center;
+    height: 40px;
+    
+  }
+  
+  .form-input-login a {
+    text-decoration: none;
+    color:purple;
+    font-weight: 600;
+  }
+  */
+  
+  .form-label-a1 {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 6px;
+   color: black;
+   font-weight: 500;
+  }
+  
+  .form-input-a1 {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .form-input-a1::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+.btn-music
+ {
+   width: 100px ;
+   height: 40px ;
+   background-color: navy;
+   color: whitesmoke;
+   font-size: large;
+   border-radius: 4px;
+   border: none;
+   
+ }
+  
+ .btn-music:hover
+ {
+   background-color: rgb(97, 97, 207);
+   box-shadow: 0px 0px 2px 2px black;
+ }
